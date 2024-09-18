@@ -30,7 +30,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <img src="images/wind.png">
+                    <img src="wind.png">
                     <div>
                         <p class=" wind">15km/h</p>
                         <p>Wind speed</p>
@@ -68,19 +68,19 @@ if(response.status == 404){
 weatherIcon.src = "./images/clouds.png";
             }
            else if(data.weather[0].main == "Clear"){
-weatherIcon.src = "./images/clear.png";
+weatherIcon.src = "clear.png";
             }
            else if(data.weather[0].main == "Rain"){
-weatherIcon.src = "./images/Rainy.png";
+weatherIcon.src = "Rainy.png";
             }
            else if(data.weather[0].main == "Drizzle"){
-weatherIcon.src = "./images/drizzle.png";
+weatherIcon.src = "drizzle.png";
             }
             else if(data.weather[0].main == "Snow"){
-weatherIcon.src = "./images/snow.png";
+weatherIcon.src = "snow.png";
             }
            else if(data.weather[0].main == "Mist"){
-weatherIcon.src = "./images/mist.png";
+weatherIcon.src = "mist.png";
             }
             document.querySelector(".weather").style.display = "block";
         }
